@@ -1,0 +1,73 @@
+:root {
+  --beige-main: #F8F3E2;
+  --beige-sec: #D2C8AE;
+  --text-color: #3A3D46;
+  --blue-main: #5C6E92;
+  --blue-sec: #7B97B8;
+  --dark-purple-main: #332A38;
+  --purple-main: #716587;
+  --purple-sec: #927CA1;
+  }
+
+.footer {
+  position: fixed;
+  height: 7%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--beige-sec);
+
+  /* text */
+  color: var(--text-color);
+  padding-left: 150px;
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.socials {
+  margin-left: 50%;
+  margin-top: 24px;
+}
+.ig {
+  margin-left: 10px;
+  display: inline;
+  cursor: pointer;
+  transition: 250ms;
+
+  text-decoration: none;
+  color: var(--text-color)
+}
+.ig:hover {
+  color: var(--blue-main);
+}
+
+.twt {
+  margin-left: 10px;
+  display: inline;
+  cursor: pointer;
+  transition: 250ms;
+
+  text-decoration: none;
+  color: var(--text-color);
+}
+.twt:hover{
+  color:var(--blue-main)
+}
+
+.linkedin {
+  margin-left: 10px;
+  display: inline;
+  cursor: pointer;
+  transition: 250ms;
+
+  text-decoration: none;
+  color: var(--text-color);
+}
+.linkedin:hover{
+  color: var(--blue-main);
+}

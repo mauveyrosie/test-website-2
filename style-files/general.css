@@ -1,0 +1,39 @@
+:root {
+  --beige-main: #F8F3E2;
+  --beige-sec: #D2C8AE;
+  --text-color: #3A3D46;
+  --blue-main: #5C6E92;
+  --blue-sec: #7B97B8;
+  --dark-purple-main: #332A38;
+  --purple-main: #716587;
+  --purple-sec: #927CA1;
+  }
+
+body {
+  background-color: var(--beige-main);
+}
+
+p {
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+}
+
+/*PLACEHOLDER CONTENT*/
+.PLACEHOLDER{
+  font-size: 24px;
+  color: var(--text-color);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.ig-tag {
+  color: var(--blue-main);
+  transition: 200ms;
+}
+.ig-tag:hover {
+  color:var(--blue-sec);
+}

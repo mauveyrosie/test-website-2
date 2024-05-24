@@ -1,0 +1,74 @@
+  /*THE container*/
+.header {
+  /*border: red;
+  border-style: solid;*/
+
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+/* The Buttons*/
+.header-buttons{
+  /*border: blue;
+  border-style: solid;*/
+
+  margin: auto;
+  text-align: center;
+  color: var(--dark-purple-main);
+  font-size: 32px;
+  
+  display: inline;
+  transition: 300ms;
+}
+.header-buttons:hover{
+  color: var(--purple-main);
+  cursor: pointer;
+}
+
+.about-but, .entries-but , .creatives-but, .projects-but{
+  margin-bottom: 0px;
+  font-family: 'Gaegu', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--dark-purple-main);
+  transition: 300ms;
+}
+.about-but:hover{
+  color: var(--purple-main);
+  cursor: pointer;
+}
+.entries-but:hover{
+  color: var(--purple-main);
+  cursor: pointer;
+}
+
+.home-button {
+  font-size: 64px;
+  font-family: "Gaegu", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--blue-main);
+
+  transition: 250ms;
+  display: inline;
+}
+
+.home-button:hover {
+  color: var(--blue-sec);
+}
+
+.button-underline{
+  
+  margin: auto;
+  height: 5px;
+  width: 80%;
+  background-color: none;
+  transition: 250ms;
+}
+
+/*
+.button-underline:hover{
+  background-color: var(--beige-sec);
+}
+*/
