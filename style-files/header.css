@@ -67,6 +67,22 @@
   transition: 250ms;
 }
 
+/* Button Underlines*/
+.visible-button-underline {
+  margin: auto;
+  height: 5px;
+  width: 80%;
+  background-color: var(--beige-sec);
+}
+.no-button-underline {
+  margin: auto;
+  height: 5px;
+  width: 80%;
+  background-color: transparent;
+}
+
+
+
 /*
 .button-underline:hover{
   background-color: var(--beige-sec);

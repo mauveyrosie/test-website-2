@@ -1,0 +1,91 @@
+/* entries css */
+:root {
+    --beige-main: #F8F3E2;
+    --beige-sec: #D2C8AE;
+    --text-color: #3A3D46;
+    --blue-main: #5C6E92;
+    --blue-sec: #7B97B8;
+    --dark-purple-main: #332A38;
+    --purple-main: #716587;
+    --purple-sec: #927CA1;
+    --beige-clear: rgb(239, 232, 213)
+    }
+
+.entries-header {
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    height: 180px;
+    width: 60%;
+    background-color: var(--beige-sec);
+    border-radius: 20px;
+}
+
+.entries-title {
+    display: inline;
+    position: absolute;
+    margin: 0;
+    bottom: 10px;
+    left: 15px;
+    font-size: 32px;
+    color: var(--dark-purple-main);
+}
+.last-updated {
+    display: inline;
+    position: absolute;
+    margin: 0;
+    bottom: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: var(--dark-purple-main);
+}
+
+.line{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: var(--beige-sec);
+    height: 3px;
+    width: 50%;
+}
+
+/* entries */
+.entries {
+    position: relative;
+    margin: auto;
+    height: 80px;
+    width: 600px;
+    border-radius: 12px;
+    background-color: var(--beige-clear)
+    
+}
+.entries:hover{
+    cursor: pointer;
+}
+
+.entry-title {
+    position: absolute;
+    margin: 0;
+    top: 15%;
+    left: 5%;
+    color: var(--text-color);
+    font-size: 26px;
+}
+.entry-date {
+    position: absolute;
+    margin: auto;
+    color: var(--text-color);
+    font-size: 18px;
+    right: 4%;
+    top: 35%;
+}
+
+.entry-tags {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    left: 3%;
+    bottom: 13%;
+    color: var(--text-color);
+    font-size: 18px;
+}

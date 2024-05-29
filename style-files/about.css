@@ -11,18 +11,6 @@
   --purple-sec: #927CA1;
   }
 
-.about-button-underline {
-  margin: auto;
-  height: 5px;
-  width: 80%;
-  background-color: var(--beige-sec);
-}
-.entries-button-underline {
-  margin: auto;
-  height: 5px;
-  width: 80%;
-  background-color: transparent;
-}
 
 .body-container{
   
